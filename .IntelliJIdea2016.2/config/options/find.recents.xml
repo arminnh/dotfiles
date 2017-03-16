@@ -1,0 +1,15 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>clear</find>
+      <find>ationsession</find>
+      <find>is running</find>
+      <find>remove</find>
+      <find>checkfora</find>
+      <find>heckfor</find>
+      <find>reservatione</find>
+      <find>getre</find>
+      <find>remote cl</find>
+    </findStrings>
+  </component>
+</application>

@@ -1,0 +1,67 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/java-RMI-2-3" />
+        <option value="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/1-java-rmi-bonus/src-client" />
+        <option value="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/1-java-rmi-bonus" />
+        <option value="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/1-java-rmi" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/java-RMI-2-3" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/java-RMI-2-3" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/1-java-rmi">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.2032.8" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1476785655098" />
+              <option name="buildTimestamp" value="1473372000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/1-java-rmi-bonus">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.2032.8" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1476910017514" />
+              <option name="buildTimestamp" value="1473372000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/1-java-rmi-bonus/src-client">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.2032.8" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1476910100991" />
+              <option name="buildTimestamp" value="1473372000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises/java-RMI-2-3">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-162.2032.8" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1478873675728" />
+              <option name="buildTimestamp" value="1473372000000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Dropbox/jaar-1/distributed-systems/exercises" />
+  </component>
+</application>

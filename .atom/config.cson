@@ -1,0 +1,18 @@
+"*":
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "spell-check"
+    ]
+    telemetryConsent: "no"
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    softWrapHangingIndent: 4
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "2753742f-5cd1-3690-492f-fd083a6aaae5"
+  welcome:
+    showOnStartup: false

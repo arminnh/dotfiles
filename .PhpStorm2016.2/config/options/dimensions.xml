@@ -1,0 +1,42 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="230" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="743" y="205" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="671" y="367" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" x="692" y="345" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="0" y="208" />
+    <location key="findTextDialog.0.0.1920.1080" x="535" y="227" />
+    <location key="SettingsEditor.0.0.1920.1080" x="696" y="218" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="207" y="430" />
+    <location key="NewPhpFileDialog.0.0.1920.1080" x="773" y="473" />
+    <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080" x="213" y="298" />
+    <location key="replaceTextDialog.0.0.1920.1080" x="717" y="236" />
+    <location key="vcs.readOnlyHandler.ReadOnlyStatusDialog.0.0.1920.1080" x="205" y="373" />
+    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="762" y="234" />
+    <location key="ReplaceDuplicatesPrompt.0.0.1920.1080" x="452" y="608" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="1434" y="27" />
+    <location key="scopes.0.0.1920.1080" x="104" y="110" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1920.1080" x="793" y="162" />
+    <location key="#Compass.0.0.1920.1080" x="237" y="453" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="481" height="505" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" width="922" height="431" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="0" height="0" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="0" height="0" />
+    <size key="findTextDialog.0.0.1920.1080" width="1385" height="641" />
+    <size key="javadoc.popup.0.0.1920.1080" width="557" height="195" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1037" height="703" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" width="546" height="254" />
+    <size key="NewPhpFileDialog.0.0.1920.1080" width="364" height="168" />
+    <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1920.1080" width="524" height="525" />
+    <size key="replaceTextDialog.0.0.1920.1080" width="475" height="641" />
+    <size key="vcs.readOnlyHandler.ReadOnlyStatusDialog.0.0.1920.1080" width="540" height="367" />
+    <size key="Vcs.Push.Dialog.0.0.1920.1080" width="385" height="646" />
+    <size key="ReplaceDuplicatesPrompt.0.0.1920.1080" width="1103" height="147" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="357" height="1053" />
+    <size key="scopes.0.0.1920.1080" width="1187" height="866" />
+    <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1920.1080" width="324" height="790" />
+    <size key="#Compass.0.0.1920.1080" width="475" height="207" />
+  </component>
+</application>
