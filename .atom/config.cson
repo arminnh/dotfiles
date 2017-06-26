@@ -8,11 +8,15 @@
     telemetryConsent: "no"
   editor:
     invisibles: {}
+    preferredLineLength: 100
     showIndentGuide: true
-    softWrapHangingIndent: 4
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "2753742f-5cd1-3690-492f-fd083a6aaae5"
   welcome:
     showOnStartup: false
+".prolog.source":
+  editor:
+    softWrapHangingIndent: 4
+    tabLength: 4

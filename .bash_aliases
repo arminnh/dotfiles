@@ -10,6 +10,8 @@ alias l='ls -CF'
 alias c='clear'
 alias gs='git status'
 alias gca='git commit -a'
+alias gpl='git pull'
+alias gps='git push'
 alias sinstall='sudo apt-get install'
 alias supdate='sudo apt-get update'
 alias ..='cd ..'
@@ -20,4 +22,3 @@ alias rm='rm -I'
 alias tgz='tar -zxvf'
 alias myconf='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
 complete -F _git myconf
-
