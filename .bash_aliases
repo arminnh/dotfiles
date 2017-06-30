@@ -20,5 +20,5 @@ alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias rm='rm -I'
 alias tgz='tar -zxvf'
-alias myconf='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
-complete -F _git myconf
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+complete -F _git dotfiles
