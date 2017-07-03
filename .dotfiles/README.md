@@ -26,13 +26,13 @@
     git clone --bare git@github.com:arminnh/dotfiles.git $HOME/.dotfiles
     
     # checkout the content from the bare repository to $HOME and back up existing dot files if there is a conflict
-    mkdir -p .config-backup
-    config checkout
+    mkdir -p .dotfiles-backup
+    dotfiles checkout
     if [ $? = 0 ]; then
-      echo "Checked out config.";
+      echo "Checked out dotfiles.";
       else
         echo "Backing up pre-existing dot files.";
-        config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+        dotfiles checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .dotfiles-backup/{}
     fi;
    
     # checkout the content from the bare repository to $HOME
