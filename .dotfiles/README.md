@@ -36,10 +36,10 @@
     fi;
    
     # checkout the content from the bare repository to $HOME
-    config checkout
+    dotfiles checkout
     
     # hide files we are not explicitly tracking
-    config config status.showUntrackedFiles no
+    dotfiles config status.showUntrackedFiles no
 
 
 # Links
