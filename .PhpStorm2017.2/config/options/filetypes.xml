@@ -1,0 +1,17 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="7ce07df6a1b4d27Y30cen" type="Images" />
+      <mapping pattern="3615aea289558d3bvBYn8" type="Images" />
+      <mapping pattern="4342dba79a737dfRMAFi1" type="Images" />
+      <mapping pattern="16a0ed40f39e2d8jkrh0v" type="Images" />
+      <mapping pattern="1cfaff59683e59c31496485744c58724" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="0ab53d74cfd71fd0432977b1a99f7d20" type="PLAIN_TEXT" />
+      <mapping pattern="6c96ba9dab195410dbb48ca900f073a8" type="PLAIN_TEXT" />
+      <mapping ext="otf" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,16 @@
+<application>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="5" />
+      <entry feature="StripeButton[Version_Control].shown" count="1" />
+      <entry feature="execute.PythonConfigurationType.Run" count="34" />
+      <entry feature="ide.settings.Mongo_Servers" count="2" />
+      <entry feature="ide.settings.Project_Interpreter" count="1" />
+      <entry feature="ideaapp.started" count="7" />
+      <entry feature="project.view.pane.ProjectPane" count="1" />
+      <entry feature="project.view.pane.Scratches" count="1" />
+      <entry feature="python.console.local" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="1" />
+    </counts>
+  </component>
+</application>

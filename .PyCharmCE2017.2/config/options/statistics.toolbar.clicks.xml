@@ -1,0 +1,13 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="Run@NavBarToolbar" count="5" />
+      <entry action="Stop@NavBarToolbar" count="3" />
+      <entry action="com.intellij.ide.actions.CollapseAllToolbarAction@MongoExplorerActions" count="1" />
+      <entry action="com.intellij.ide.actions.ExpandAllToolbarAction@MongoExplorerActions" count="3" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="4" />
+      <entry action="org.codinjutsu.tools.mongo.view.action.OpenPluginSettingsAction@MongoExplorerActions" count="1" />
+      <entry action="org.codinjutsu.tools.mongo.view.action.RefreshServerAction@MongoExplorerActions" count="4" />
+    </counts>
+  </component>
+</application>

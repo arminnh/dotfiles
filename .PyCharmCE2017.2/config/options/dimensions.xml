@@ -1,0 +1,33 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="743" y="224" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="960" y="472" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="671" y="367" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="1434" y="862" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="711" y="430" />
+    <location key="#HTTP_Proxy.0.0.1920.1080" x="716" y="261" />
+    <location key="#Browse_JetBrains_Plugins_.0.0.1920.1080" x="537" y="207" />
+    <location key="#Custom_Plugin_Repositories.0.0.1920.1080" x="912" y="367" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="657" y="133" />
+    <location key="SettingsEditor.0.0.1920.1080" x="618" y="180" />
+    <location key="find.popup.0.0.1920.1080" x="613" y="159" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="112" y="232" />
+    <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.0.0.1920.1080" x="36" y="251" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" x="662" y="345" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="424" height="505" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="400" height="216" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" width="498" height="254" />
+    <size key="#HTTP_Proxy.0.0.1920.1080" width="466" height="603" />
+    <size key="#Browse_JetBrains_Plugins_.0.0.1920.1080" width="824" height="705" />
+    <size key="#Custom_Plugin_Repositories.0.0.1920.1080" width="304" height="243" />
+    <size key="#Browse_Repositories.0.0.1920.1080" width="824" height="705" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1037" height="703" />
+    <size key="find.popup.0.0.1920.1080" width="933" height="732" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1872" height="144" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1872" height="144" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1872" height="144" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1872" height="144" />
+    <size key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.0.0.1920.1080" width="878" height="612" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" width="587" height="431" />
+  </component>
+</application>

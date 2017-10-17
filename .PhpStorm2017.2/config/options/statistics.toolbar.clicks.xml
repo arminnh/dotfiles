@@ -1,0 +1,18 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="Console.Jdbc.Execute@EditorToolbar" count="1" />
+      <entry action="Console.TableResult.ChooseExtractor@unknown" count="1" />
+      <entry action="Console.TableResult.CountRows@unknown" count="5" />
+      <entry action="Console.TableResult.LastPage@EditorToolbar" count="4" />
+      <entry action="Console.TableResult.NextPage@EditorToolbar" count="8" />
+      <entry action="Console.TableResult.Reload@EditorToolbar" count="11" />
+      <entry action="Console.TableResult.Submit@EditorToolbar" count="10" />
+      <entry action="DatabaseView.SynchronizeAction@ProjectViewToolbar" count="9" />
+      <entry action="Jdbc.OpenConsole@ProjectViewToolbar" count="22" />
+      <entry action="com.intellij.find.SearchTextArea$ClearAction@unknown" count="1" />
+      <entry action="com.intellij.find.impl.FindPopupPanel$MySelectScopeToggleAction@EditorToolbar" count="29" />
+      <entry action="com.intellij.ide.util.gotoByName.ChooseByNameFilter$FilterAction@gotfile.filter" count="9" />
+    </counts>
+  </component>
+</application>
