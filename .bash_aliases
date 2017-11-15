@@ -9,16 +9,27 @@ alias la='ls -A'
 alias l='ls -CF'
 alias c='clear'
 alias gs='git status'
+alias gdf='git diff'
+alias gdfm='git diff master'
+alias gc='git commit'
 alias gca='git commit -a'
 alias gpl='git pull'
 alias gps='git push'
-alias sinstall='sudo apt-get install'
-alias supdate='sudo apt-get update'
+
+alias sinstall='sudo apt install'
+alias supdate='sudo apt update'
+alias supgrade='sudo apt upgrade'
+
 alias ..='cd ..'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
+
 alias rm='rm -I'
 alias tgz='tar -zxvf'
+
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 complete -F _git dotfiles
+
+alias thesis-nb='jupyter-notebook ~/Dropbox/year-2/master-thesis/src/notebooks/'
+
