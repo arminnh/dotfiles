@@ -32,4 +32,4 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 complete -F _git dotfiles
 
 alias thesis-nb='jupyter-notebook ~/Dropbox/year-2/master-thesis/src/notebooks/'
-
+alias pdfthesis='pdflatex thesis.tex && bibtex thesis.aux && pdflatex thesis.tex && pdflatex thesis.tex'
