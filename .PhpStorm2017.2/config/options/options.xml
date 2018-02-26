@@ -14,7 +14,7 @@
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="121" />
     <property name="markdown.do.not.ask.to.change.preview.provider" value="true" />
     <property name="disable.forced.soft.wraps.notification" value="true" />
-    <property name="file.gist.reindex.count" value="1334" />
+    <property name="file.gist.reindex.count" value="1623" />
     <property name="OpenOrAttachDialog.OpenMode" value="replace" />
     <property name="DBE.Default.Dialect" value="MySQL" />
     <property name="com.intellij.database.view.ui.DeleteDialog.previewExpanded" value="true" />

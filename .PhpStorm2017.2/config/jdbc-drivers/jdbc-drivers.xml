@@ -18,6 +18,12 @@
          md5=""/>
     <item name="mysql-connector-license.txt" url="http://download.jetbrains.com/idea/jdbc-drivers/mysql-connector-license.txt" md5=""/>
   </artifact>
+  <artifact version="5.1.44" name="MySQL Connector/J">
+    <item name="mysql-connector-java-5.1.44-bin.jar"
+         url="http://download.jetbrains.com/idea/jdbc-drivers/mysql-connector-java-5.1.44-bin.jar"
+         md5=""/>
+    <item name="mysql-connector-license.txt" url="http://download.jetbrains.com/idea/jdbc-drivers/mysql-connector-license.txt" md5=""/>
+  </artifact>
   <artifact version="9.4-1201" name="PostgreSQL">
     <item name="postgresql-9.4-1201.jdbc4.jar"
          url="http://download.jetbrains.com/idea/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar"
@@ -131,5 +137,17 @@
           url="http://download.jetbrains.com/idea/jdbc-drivers/redshiftjdbc42-1.2.1.1001.jar"
           md5=""/>
     <item name="amazon-redshift-jdbc-driver-license-agreement.txt" url="http://download.jetbrains.com/idea/jdbc-drivers/amazon-redshift-jdbc-driver-license-agreement.txt" md5=""/>
+  </artifact>
+  <artifact version="1.2.10.1009" name="Redshift">
+    <item name="redshiftjdbc42-1.2.10.1009.jar"
+          url="http://download.jetbrains.com/idea/jdbc-drivers/redshiftjdbc42-1.2.10.1009.jar"
+          md5=""/>
+    <item name="amazon-redshift-jdbc-driver-license-agreement.txt" url="http://download.jetbrains.com/idea/jdbc-drivers/amazon-redshift-jdbc-driver-license-agreement.txt" md5=""/>
+  </artifact>
+  <artifact version="6.0.3" name="Exasol">
+    <item name="exajdbc-6.0.3.jar"
+          url="http://download.jetbrains.com/idea/jdbc-drivers/exajdbc-6.0.3.jar"
+          md5=""/>
+    <item name="exasol-license.txt" url="http://download.jetbrains.com/idea/jdbc-drivers/exasol-license.txt" md5=""/>
   </artifact>
 </artifacts>

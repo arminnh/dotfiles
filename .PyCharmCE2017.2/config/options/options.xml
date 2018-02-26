@@ -6,13 +6,20 @@
     <property name="PyCharm.InitialConfiguration.V4" value="true" />
     <property name="PyCharm.InitialConfiguration.V5" value="true" />
     <property name="PyCharm.InitialConfiguration.V6" value="true" />
-    <property name="fileTypeChangedCounter" value="3" />
+    <property name="fileTypeChangedCounter" value="9" />
     <property name="PyCharm.initialConfigurationShown" value="true" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Dropbox/jaar-2/master-thesis" />
-    <property name="file.gist.reindex.count" value="15801" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/probabilistic-programming&#10;/home/n/master-thesis&#10;/home/n/csai-probabilistic-programming&#10;/home/n/Dropbox/year-2/master-thesis&#10;/home/n/Dropbox/year-2&#10;/home/n/Dropbox/jaar-2/master-thesis" />
+    <property name="file.gist.reindex.count" value="19034" />
     <property name="lastTip" value="1" />
     <property name="PLUGIN_FILTER" value="mark&#10;mongo" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="SplitFileEditor.Proportion" value="0.6541694" />
+    <property name="TEMPLATES_FILTER_HISTORY" value="inte&#10;python" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="OpenOrAttachDialog.OpenMode" value="replace" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
   </component>
 </application>
