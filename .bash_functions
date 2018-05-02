@@ -1,3 +1,5 @@
+# ~/.bash_functions: used by bashrc
+
 # Create a new directory and enter it
 function mk() {
   mkdir -p "$@" && cd "$@"
@@ -31,5 +33,14 @@ extract() {
     esac
   else
      echo "'$1' is not a valid file to extract"
+  fi
+}
+
+function compress-pdf() {
+  if [ -f "$1" ]; then
+    echo "Compressing file $1";
+    /usr/bin/gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$1.compressed" "$1"
+  else
+    echo "Usage: compress_pdf [pdf_file]";
   fi
 }
