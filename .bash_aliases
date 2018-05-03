@@ -31,7 +31,7 @@ complete -F _git dotfiles
 
 alias thesis-nb='jupyter-notebook $HOME/master-thesis/src/notebooks/'
 alias pdfthesis='pdflatex thesis.tex && bibtex thesis.aux && pdflatex thesis.tex && pdflatex thesis.tex'
-alias robo3t='$HOME/Downloads/robo3t-1.1.1-linux-x86_64-c93c6b0/bin/robo3t'
+alias robo3t='$HOME/Downloads/robo3t-1.2.1-linux/bin/robo3t'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
