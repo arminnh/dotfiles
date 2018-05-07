@@ -29,7 +29,7 @@ alias tgz='tar -zxvf'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 complete -F _git dotfiles
 
-alias thesis-nb='jupyter-notebook $HOME/master-thesis/src/notebooks/'
+alias thesis-nb='jupyter-notebook $HOME/masters-thesis/src/notebooks/'
 alias pdfthesis='pdflatex thesis.tex && bibtex thesis.aux && pdflatex thesis.tex && pdflatex thesis.tex'
 alias robo3t='$HOME/Downloads/robo3t-1.2.1-linux/bin/robo3t'
 
