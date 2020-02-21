@@ -1,9 +1,21 @@
 # ~/.bash_aliases: used by bashrc
 
+alias source-bashrc='source $HOME/.bashrc'
+
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+complete -F _git dotfiles
+
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+
 alias ll='ls -alF'
-alias la='ls -A'
 alias l='ls -CF'
-alias c='clear'
+
+alias rm='rm -I'
+alias tgz='tar -zxvf'
+
 alias gs='git status'
 alias gdf='git diff'
 alias gdfm='git diff master'
@@ -13,25 +25,9 @@ alias gca='git commit -a'
 alias gpl='git pull'
 alias gps='git push'
 
-alias sinstall='sudo apt install'
-alias supdate='sudo apt update'
-alias supgrade='sudo apt upgrade'
-alias source-reload='source $HOME/.bashrc'
-
-alias ..='cd ..'
-alias ...='cd ../../'
-alias ....='cd ../../../'
-alias .....='cd ../../../../'
-
-alias rm='rm -I'
-alias tgz='tar -zxvf'
-
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-complete -F _git dotfiles
-
-alias thesis-nb='jupyter-notebook $HOME/masters-thesis/src/notebooks/'
-alias pdfthesis='pdflatex thesis.tex && bibtex thesis.aux && pdflatex thesis.tex && pdflatex thesis.tex'
-alias robo3t='$HOME/Downloads/robo3t-1.2.1-linux/bin/robo3t'
+alias dimg='docker image ls'
+alias dcon='docker container ls'
+alias dps='docker ps'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
