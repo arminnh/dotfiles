@@ -24,6 +24,7 @@ alias gc='git commit'
 alias gca='git commit -a'
 alias gpl='git pull'
 alias gps='git push'
+alias gb='git branch -v'
 
 alias dimg='docker image ls'
 alias dcon='docker container ls'
