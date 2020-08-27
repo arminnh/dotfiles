@@ -1,2 +1,0 @@
-com.jedide.apex
-org.jetbrains.plugins.ipnb
