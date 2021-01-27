@@ -59,3 +59,7 @@ function convert_pdf_to_png() {
     fi
   done
 }
+
+function markdown_to_pdf() {
+  pandoc "$1" -o "${1%.*}.pdf" -V geometry:margin=1in -f markdown-implicit_figures --toc --number-sections
+}
