@@ -1,5 +1,9 @@
 # ~/.bash_functions: used by bashrc
 
+function killallport() {
+  kill -9 $(lsof -t -i:$1)
+}
+
 # Create a new directory and enter it
 function mk() {
   mkdir -p "$@" && cd "$@"
@@ -45,7 +49,7 @@ function compress-pdf() {
   fi
 }
 
-function convert_pdf_to_png() {
+function pdf_to_png() {
   for i in "$@"
   do
     if [ -d "$i" ]; then
@@ -62,4 +66,12 @@ function convert_pdf_to_png() {
 
 function markdown_to_pdf() {
   pandoc "$1" -o "${1%.*}.pdf" -V geometry:margin=1in -f markdown-implicit_figures --toc --number-sections
+}
+
+function combine_pdfs() {
+  ghostscript -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile="$1" -dAutoRotatePages=/None "${@:2}"
+}
+
+function pdf_to_clipboard() {
+  base64 "$1" | tr -d '\n' | xclip
 }
