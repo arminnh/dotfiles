@@ -3,6 +3,7 @@
 	name = Armin
 [core]
 	filemode = false
+	excludesfile = ~/.gitignore_global
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
