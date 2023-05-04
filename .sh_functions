@@ -38,7 +38,7 @@ extract() {
   fi
 }
 
-function compress-pdf() {
+function compress_pdf() {
   if [ -f "$1" ]; then
     echo "Compressing file $1";
     /usr/bin/gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$1.compressed" "$1"

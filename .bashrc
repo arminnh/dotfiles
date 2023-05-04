@@ -88,12 +88,13 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+alias source_reload='source $HOME/.bashrc'
 if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+    . ~/.sh_aliases
 fi
 
 if [ -f ~/.bash_functions ]; then
-    . ~/.bash_functions
+    . ~/.sh_functions
 fi
 
 # enable programmable completion features (you don't need to enable

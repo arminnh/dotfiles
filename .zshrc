@@ -92,12 +92,15 @@ autoload -Uz zmv
 # Define functions and completions.
 function md() { [[ $# == 1 ]] && mkdir -p -- "$1" && cd -- "$1" }
 compdef _directories md
+. ~/.sh_functions
 
 # Define named directories: ~w <=> Windows home directory on WSL.
 [[ -z $z4h_win_home ]] || hash -d w=$z4h_win_home
 
 # Define aliases.
 alias tree='tree -a -I .git'
+alias zshreload='exec zsh'
+. ~/.sh_aliases
 
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
