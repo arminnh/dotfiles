@@ -2,8 +2,9 @@
 	email = halilovic.armin@hotmail.com
 	name = Armin
 [core]
-	filemode = false
+	editor = /usr/bin/vim -f
 	excludesfile = ~/.gitignore_global
+	filemode = false
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
