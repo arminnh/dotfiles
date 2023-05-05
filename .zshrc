@@ -110,3 +110,12 @@ setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
 
 [[ ! -v functions[command_not_found_handler] ]] || unfunction command_not_found_handler
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# Python Poetry
+export POETRY_VIRTUALENVS_IN_PROJECT=true
+export POETRY_VIRTUALENVS_PREFER_ACTIVE_PYTHON=true
