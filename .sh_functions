@@ -9,8 +9,7 @@ function mk() {
 
 # Open man page as PDF
 function manpdf() {
- #man -t "${1}" | open -f -a /Applications/Preview.app/
- man -t "${1}" | open -f /Applications/Preview.app/
+  man -t "${1}" | open -f -a /System/Applications/Preview.app
 }
 
 # Extra many types of compressed packages
@@ -71,5 +70,5 @@ function combine_pdfs() {
 }
 
 function pdf_to_clipboard() {
-  base64 "$1" | tr -d '\n' | xclip
+  base64 -i "$1" | tr -d '\n' | xclip
 }
