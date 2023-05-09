@@ -69,7 +69,7 @@ export GPG_TTY=$TTY
 z4h source ~/.env.zsh
 
 # autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
 # Use additional Git repositories pulled in with `z4h install`.
 #
