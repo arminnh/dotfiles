@@ -1,6 +1,6 @@
-# Generated with: brew bundle dump --all --describe --global
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "homebrew/command-not-found"
 tap "microsoft/git"
 tap "minamijoyo/tfupdate"
 # Shell extension to jump to frequently used directories
@@ -11,6 +11,8 @@ brew "docker"
 brew "git"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Python version management
 brew "pyenv"
 # Terminal multiplexer
@@ -23,6 +25,8 @@ brew "zsh"
 brew "minamijoyo/tfupdate/tfupdate"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# Compact TeX distribution as alternative to the full TeX Live / MacTeX
+cask "basictex"
 # Desktop password and login vault
 cask "bitwarden"
 # Developer targeted fonts with a high number of glyphs

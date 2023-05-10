@@ -88,19 +88,19 @@ z4h bindkey z4h-cd-down    Shift+Down   # cd into a child directory
 
 # Autoload functions.
 autoload -Uz zmv
+for file in ~/.zfunc/*
+    do autoload -Uz $file
+done
 
 # Define functions and completions.
-function md() { [[ $# == 1 ]] && mkdir -p -- "$1" && cd -- "$1" }
-compdef _directories md
-. ~/.sh_functions
+compdef _directories mk
 
 # Define named directories: ~w <=> Windows home directory on WSL.
 [[ -z $z4h_win_home ]] || hash -d w=$z4h_win_home
 
 # Define aliases.
-alias tree='tree -a -I .git'
 alias zshreload='exec zsh'
-. ~/.sh_aliases
+. ~/.aliases
 
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"

@@ -1,0 +1,3 @@
+function combine_pdfs() {
+  ghostscript -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile="$1" -dAutoRotatePages=/None "${@:2}"
+}

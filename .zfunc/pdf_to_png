@@ -1,0 +1,14 @@
+function pdf_to_png() {
+  for i in "$@"
+  do
+    if [ -d "$i" ]; then
+      echo "$i is a directory."
+    elif [ -e "$i" ]; then
+      echo "Converting $i."
+      FILE_NO_EXT="${i%.*}"
+      pdftoppm "$i" "$FILE_NO_EXT" -png -f 1 -singlefile -rx 200 -ry 200
+    else
+      echo "$i - directory empty."
+    fi
+  done
+}

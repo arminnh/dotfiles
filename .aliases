@@ -1,4 +1,6 @@
 # alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias sync-dotfiles='rsync --recursive --times --verbose --checksum $HOME/.{aliases,Brewfile,gitignore_global,p10k.zsh,zfunc,zshenv,zshrc} $HOME/projects/dotfiles/'
+alias brew-dump='brew bundle dump --all --describe --global'
 
 alias ..='cd ..'
 alias ...='cd ../../'
@@ -10,6 +12,7 @@ alias l='ls -CF'
 alias ll='ls -alF'
 alias rm='rm -I'
 alias tgz='tar -zxvf'
+alias tree='tree -a -I .git'
 
 alias ga='git add --verbose'
 alias gaa='git add --all --verbose'
