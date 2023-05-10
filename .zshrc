@@ -119,3 +119,6 @@ eval "$(pyenv init -)"
 # Python Poetry
 export POETRY_VIRTUALENVS_IN_PROJECT=true
 export POETRY_VIRTUALENVS_PREFER_ACTIVE_PYTHON=true
+
+# Rust
+. "$HOME/.cargo/env"

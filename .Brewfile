@@ -15,6 +15,8 @@ brew "neovim"
 brew "pandoc"
 # Python version management
 brew "pyenv"
+# Rust toolchain installer
+brew "rustup-init"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
