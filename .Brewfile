@@ -5,6 +5,8 @@ tap "microsoft/git"
 tap "minamijoyo/tfupdate"
 # Shell extension to jump to frequently used directories
 brew "autojump"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Distributed revision control system
@@ -13,10 +15,14 @@ brew "git"
 brew "neovim"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
+# Framework for managing multi-language pre-commit hooks
+brew "pre-commit"
 # Python version management
 brew "pyenv"
 # Rust toolchain installer
 brew "rustup-init"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
